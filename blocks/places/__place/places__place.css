@@ -1,0 +1,26 @@
+.places__place{
+  display: grid;
+  grid-template-areas:
+      "place_title place_website"
+      "place_image place_paragraphs";
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+  padding-top: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+
+}
+@media screen and (max-width: 768px){
+.places__place {
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    grid-column-gap: 0;
+    grid-row-gap: 32px;
+    grid-template-areas:
+        "place_title"
+        "place_website"
+        "place_image"
+        "place_paragraphs";
+      }
+}
