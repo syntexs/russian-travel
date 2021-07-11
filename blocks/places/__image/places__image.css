@@ -1,6 +1,7 @@
-.places__image{
+.places__image {
   max-width: 460px;
   grid-area: place_image;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .places__image {

@@ -1,0 +1,11 @@
+.cover__text {
+  position: absolute;
+  text-align: center;
+  max-width: 560px;
+
+}
+@media screen and (min-width: 0) and (max-width: 767px) {
+  .cover__text {
+    max-width: 288px;
+  }
+}

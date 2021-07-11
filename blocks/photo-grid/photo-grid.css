@@ -3,11 +3,12 @@
   max-width: 1184px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 284px), 1fr));
   padding: 92px auto 0 auto;
   gap:16px;
   margin: 0 auto;
   padding-top: 92px;
+
 
 }
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
