@@ -1,3 +1,4 @@
+/* заменил img в html на backgroung image но при деплое не вижу изменений*/
 .cover {
   margin: 0 auto;
   max-width: 1184px;
