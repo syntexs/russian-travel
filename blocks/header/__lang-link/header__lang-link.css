@@ -2,19 +2,16 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
+  text-decoration: none;
+  margin-right: 0;
 }
-.header__lang-link:hover{
+.header__lang-link:hover {
   opacity: 0.8;
 }
 
-
-.header__lang-link:nth-child(1) {
-  margin-right: 18px;
-  text-decoration: underline;
-}
-@media screen and (min-width:0) and (max-width: 767px) {
+@media screen and (min-width: 0) and (max-width: 767px) {
   .header__lang-link {
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }

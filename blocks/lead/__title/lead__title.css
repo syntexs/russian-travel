@@ -8,13 +8,11 @@
   margin: 0;
   margin-bottom: 32px;
 }
-@media screen and (min-width:0) and (max-width:680px)  {
+@media screen and (min-width: 0) and (max-width: 680px) {
   .lead__title {
-  max-width: 288px;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 44px;
-  margin-bottom: 16px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 16px;
   }
 }
-

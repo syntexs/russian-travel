@@ -1,0 +1,6 @@
+.header__links{
+  list-style: none;
+  display: block;
+  display: flex;
+  flex-direction: row;
+}

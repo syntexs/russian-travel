@@ -1,17 +1,17 @@
-.footer__link {
+.footer__item {
   margin-right: 18px;
 }
 
-.footer__link:last-child {
+.footer__item:last-child {
   margin-right: 0;
 }
 @media screen and (min-width:0) and (max-width:767px){
-  .footer__link {
+  .footer__item {
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
   }
-  .footer__link:last-child {
+  .footer__item:last-child {
     margin-bottom: 0px;
   }
 }

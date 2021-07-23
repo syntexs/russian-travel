@@ -9,3 +9,9 @@
    padding: 0 16px;
   }
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .places__website {
+
+  }
+
+}

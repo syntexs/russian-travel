@@ -4,9 +4,26 @@
   line-height: 163%;
   /* or 29px */
   color: #FFFFFF;
+  margin: 0;
 }
 @media screen and (min-width: 0) and (max-width: 425px) {
   .places__paragraph {
     padding: 0 16px;
+    font-size: 16px;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .places__paragraph {
+    max-width: 456px;
+  }
+  }
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .places__paragraph {
+      max-width: 352px;
+      font-size: 16px;
+    }
+    .places__paragraph:nth-child(2) {
+      padding-top: 25px;
+    }
+    }
+
