@@ -1,4 +1,10 @@
-.cover__overlay {
+.cover__link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__link::after{
+  content: "";
   background-color: #2A2C2F;
   width: 100%;
   object-fit: cover;
@@ -7,8 +13,9 @@
   height: 100%;
   top: 0;
   left: 0;
+  z-index: 2;
 }
-.cover:hover .cover__overlay {
+.cover:hover .cover__link::after {
   opacity: 0.8;
   transition: opacity 2s ease;
 }

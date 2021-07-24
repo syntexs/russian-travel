@@ -5,7 +5,15 @@
   width: 100%;
 
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .places__image {
+    max-width: 340px;
+
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
   .places__image {
     max-width: 440px;
 
